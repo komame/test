@@ -10,7 +10,7 @@ karia's dot-files
 cd ~
 git clone https://github.com/karia/dot-files.git
 
-ln -s ~/dot-files/zsh/.zshrc .
+ln -s ~/dot-files/zsh/.zsh* .
 ```
 
 ## ToDo

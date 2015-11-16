@@ -117,3 +117,5 @@ export EDITOR='vim'
 export SHELL='zsh'
 
 source ~/.tmuxinator/tmuxinator.zsh
+
+export TERM=xterm-256color

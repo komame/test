@@ -1,8 +1,8 @@
-"2.2a1pre (created: 2009/08/01 07:30:41)
-" 
+" 2.2a1pre (created: 2009/08/01 07:30:41)
+ 
 set focuscontent
-set runtimepath=C:¥¥Users¥¥yoshiyuki¥¥vimperator
-set titlestring=Firefox
+" set runtimepath=C:¥¥Users¥¥yoshiyuki¥¥vimperator
+set titlestring=Firefox (vimperator mode)
 set hintchars=="HJKLASDFGYUIOPQWERTNMZXCVB"
 
 " undo保持数

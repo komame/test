@@ -112,14 +112,18 @@ setopt print_eightbit
 #    exit
 # fi
 
-# for tmuxinator
 export EDITOR='vim'
 export SHELL='zsh'
 
-source ~/.tmuxinator/tmuxinator.zsh
+# for tmuxinator
+if which mux > /dev/null; then
+  source ~/.tmuxinator/tmuxinator.zsh
+fi
 
 export TERM=xterm-256color
 
 # for rbenv
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then
+  eval "$(rbenv init -)"
+fi
 

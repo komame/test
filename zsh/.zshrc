@@ -116,14 +116,14 @@ export EDITOR='vim'
 export SHELL='zsh'
 
 # for tmuxinator
-if which mux > /dev/null; then
+if which mux > /dev/null 2>&1; then
   source ~/.tmuxinator/tmuxinator.zsh
 fi
 
 export TERM=xterm-256color
 
 # for rbenv
-if which rbenv > /dev/null; then
+if which rbenv > /dev/null 2>&1; then
   eval "$(rbenv init -)"
 fi
 

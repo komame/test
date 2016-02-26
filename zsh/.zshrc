@@ -119,3 +119,7 @@ export SHELL='zsh'
 source ~/.tmuxinator/tmuxinator.zsh
 
 export TERM=xterm-256color
+
+# for rbenv
+eval "$(rbenv init -)"
+
